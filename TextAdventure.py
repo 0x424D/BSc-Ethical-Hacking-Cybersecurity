@@ -36,6 +36,7 @@ if x == "a":
 		input()
 		print("You realise your acomplice has a southern drawl.")
 		input()
+		print("xyz")
 	elif x == "b":
 		pass
 	elif x == "c":
