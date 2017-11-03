@@ -18,7 +18,7 @@ def daySuffix(n):
 
 def formattedDates(day, month, year):
     """Take day, month, and year as ints and return the formatted date."""
-    months = ["""January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    months = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     
     if day < 1:
         raise ValueError("The amount of days in a month is always at least 1.")
