@@ -27,9 +27,9 @@ def formattedDates(day, month, year):
         raise ValueError("There are 12 months.")
     
     if month == 2:
-        if isLeapYear(year) and (day > 29 or day < 1):
+        if isLeapYear(year) and day > 29:
             raise ValueError("There are only 29 days in February during a leap year.")
-        elif not isLeapYear(year) and (day > 28 or day < 1):
+        elif not isLeapYear(year) and day > 28:
             raise ValueError("There are only 28 days in February when it is not a leap year.")
     elif month in [4, 6, 9, 11]:
         if day > 30:
