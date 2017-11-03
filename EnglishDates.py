@@ -3,7 +3,7 @@ def isLeapYear(year):
     if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
         return True
     else:
-        retun False
+        return False
 
 def daySuffix(n):
     """Take any int n and return the ordinal suffix of the int."""
