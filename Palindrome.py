@@ -5,6 +5,7 @@
 # - False if not.
 
 def isPalindrome(S):
+  """Takes a string S. Returns True if S is a palindrome, False otherwise"""
   if len(S) == 0:
     return True
   
