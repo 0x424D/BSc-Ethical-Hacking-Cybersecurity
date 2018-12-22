@@ -1,6 +1,5 @@
 print("----------121COM Week 2 Lab Exercise 7----------")
 print("-------------Escape From Fukundo Bay------------")
-print("------------------Aidan Redden------------------")
 print("\n")
 
 print("You awake in a dark room.  Do you:")
